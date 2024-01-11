@@ -1,12 +1,12 @@
-module "dev1" {
+module "dev01" {
   source = "./modules/aft-account-request"
   control_tower_parameters = {
-    AccountEmail              = "jerome3079+d1@gmail.com"
-    AccountName               = "Dev1-Dev1"
+    AccountEmail              = "jerome3079+d01@gmail.com"
+    AccountName               = "Dev-01"
     ManagedOrganizationalUnit = "Developers"
-    SSOUserEmail              = "jerome3079+d1@gmail.com"
-    SSOUserFirstName          = "Dev1"
-    SSOUserLastName           = "Dev1"
+    SSOUserEmail              = "jerome3079+d01@gmail.com"
+    SSOUserFirstName          = "Dev01"
+    SSOUserLastName           = "Dev01"
   }
   account_tags = {
     "Learn Tutorial" = "AFT"
@@ -18,18 +18,18 @@ module "dev1" {
   custom_fields = {
     group = "non-prod"
   }
-  account_customizations_name = "dev1"
+  account_customizations_name = "dev01"
 }
 
-module "dev2" {
+module "dev02" {
   source = "./modules/aft-account-request"
   control_tower_parameters = {
-    AccountEmail              = "jerome3079+d2@gmail.com"
-    AccountName               = "Dev2-Dev2"
+    AccountEmail              = "jerome3079+d02@gmail.com"
+    AccountName               = "Dev-02"
     ManagedOrganizationalUnit = "Developers"
-    SSOUserEmail              = "jerome3079+d2@gmail.com"
-    SSOUserFirstName          = "Dev2"
-    SSOUserLastName           = "Dev2"
+    SSOUserEmail              = "jerome3079+d02@gmail.com"
+    SSOUserFirstName          = "Dev02"
+    SSOUserLastName           = "Dev02"
   }
   account_tags = {
     "Learn Tutorial" = "AFT"
@@ -41,6 +41,6 @@ module "dev2" {
   custom_fields = {
     group = "non-prod"
   }
-  account_customizations_name = "dev2"
+  account_customizations_name = "dev02"
 }
 
