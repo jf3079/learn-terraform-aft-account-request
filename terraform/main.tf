@@ -18,7 +18,7 @@ module "dev01" {
   custom_fields = {
     group = "non-prod"
   }
-  account_customizations_name = "dev01"
+  account_customizations_name = "sandbox"
 }
 
 module "dev02" {
@@ -41,7 +41,7 @@ module "dev02" {
   custom_fields = {
     group = "non-prod"
   }
-  account_customizations_name = "dev02"
+  account_customizations_name = "sandbox"
 }
 
 module "dev03" {
@@ -64,7 +64,7 @@ module "dev03" {
   custom_fields = {
     group = "non-prod"
   }
-  account_customizations_name = "dev03"
+  account_customizations_name = "sandbox"
 }
 
 module "dev04" {
@@ -87,5 +87,5 @@ module "dev04" {
   custom_fields = {
     group = "non-prod"
   }
-  account_customizations_name = "dev04"
+  account_customizations_name = "sandbox"
 }
