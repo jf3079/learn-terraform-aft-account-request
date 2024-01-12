@@ -11,6 +11,7 @@ module "dev001" {
   account_tags = {
     "Learn Tutorial" = "AFT"
     "OU"             = "Developers"
+    "Enviroment"     = "Testing"
   }
   change_management_parameters = {
     change_requested_by = "Jerome"
