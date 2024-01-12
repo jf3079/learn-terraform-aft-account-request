@@ -3,7 +3,7 @@ module "sb001" {
   control_tower_parameters = {
     AccountEmail              = "jerome3079+sb001@gmail.com"
     AccountName               = "Sb-001"
-    ManagedOrganizationalUnit = "Developers"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "jerome3079+sb001@gmail.com"
     SSOUserFirstName          = "Sb"
     SSOUserLastName           = "001"
