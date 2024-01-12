@@ -10,6 +10,7 @@ module "sb001" {
   }
   account_tags = {
     "Learn Tutorial" = "AFT"
+    "OU"             = "Sandbox"
   }
   change_management_parameters = {
     change_requested_by = "Jerome"

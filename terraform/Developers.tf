@@ -10,6 +10,7 @@ module "dev001" {
   }
   account_tags = {
     "Learn Tutorial" = "AFT"
+    "OU"             = "Developers"
   }
   change_management_parameters = {
     change_requested_by = "Jerome"
